@@ -1,0 +1,63 @@
+{
+  "id": "379dcfa0-401a-459d-8bc5-cc7e21a9bd9f",
+  "status": "SUCCESSFUL",
+  "result": {
+    "alexaExecutionInfo": {
+      "alexaResponses": [
+        {
+          "type": "Speech",
+          "content": {
+            "caption": "There was a problem with the requested skill's response"
+          }
+        }
+      ]
+    },
+    "skillExecutionInfo": {
+      "invocationRequest": {
+        "endpoint": "arn:aws:lambda:us-east-1:948715237509:function:ask-custom-ted-search-default",
+        "body": {
+          "version": "1.0",
+          "session": {
+            "new": true,
+            "sessionId": "amzn1.echo-api.session.e1defa3b-e37b-4e3a-9a66-b080c6c29909",
+            "application": {
+              "applicationId": "amzn1.ask.skill.fed2c5b5-6ad8-40f2-aa0a-647363a217ae"
+            },
+            "user": {
+              "userId": "amzn1.ask.account.AEPW3CMF2USGTSKBFVR76T5WHAGV3AQMD5WZWXDTH2GXL4RZXNMTQAFGTRDUTPQDT4YWQPCZWXVNNFMRQFQ6K2JUUNYVOPJOQBB47NUR7I6ZUIO23YK5NNVPOUNE3DS6PGD5K6YIKEZD7GZ5UQURBPNLGVTNR77GNU53RZC7V7YBG2S5EN4R4IZTMUEQAYGZZX36HOG3F6YQH4I"
+            }
+          },
+          "context": {
+            "System": {
+              "application": {
+                "applicationId": "amzn1.ask.skill.fed2c5b5-6ad8-40f2-aa0a-647363a217ae"
+              },
+              "user": {
+                "userId": "amzn1.ask.account.AEPW3CMF2USGTSKBFVR76T5WHAGV3AQMD5WZWXDTH2GXL4RZXNMTQAFGTRDUTPQDT4YWQPCZWXVNNFMRQFQ6K2JUUNYVOPJOQBB47NUR7I6ZUIO23YK5NNVPOUNE3DS6PGD5K6YIKEZD7GZ5UQURBPNLGVTNR77GNU53RZC7V7YBG2S5EN4R4IZTMUEQAYGZZX36HOG3F6YQH4I"
+              },
+              "device": {
+                "deviceId": "amzn1.ask.device.AF2OJZSX4BNRDGYTEVUEMJN7AS2XFI3EZZRZF4OGV3BUZMHW42N6COSFPSBPMXDYS2UFLR3FQCLSDFX2QWVYOEPLO4ZVCB3DGAZZVFJYCNZKDF5WY7QVNTBLZ2PJPYRSPPMVTNK4EP3I6B5UPNBJBFTC2C6A",
+                "supportedInterfaces": {}
+              },
+              "apiEndpoint": "https://api.amazonalexa.com",
+              "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmZlZDJjNWI1LTZhZDgtNDBmMi1hYTBhLTY0NzM2M2EyMTdhZSIsImV4cCI6MTU1MDg0NDI0NywiaWF0IjoxNTUwODQzOTQ3LCJuYmYiOjE1NTA4NDM5NDcsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUYyT0paU1g0Qk5SREdZVEVWVUVNSk43QVMyWEZJM0VaWlJaRjRPR1YzQlVaTUhXNDJONkNPU0ZQU0JQTVhEWVMyVUZMUjNGUUNMU0RGWDJRV1ZZT0VQTE80WlZDQjNER0FaWlZGSllDTlpLREY1V1k3UVZOVEJMWjJQSlBZUlNQUE1WVE5LNEVQM0k2QjVVUE5CSkJGVEMyQzZBIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUVQVzNDTUYyVVNHVFNLQkZWUjc2VDVXSEFHVjNBUU1ENVdaV1hEVEgyR1hMNFJaWE5NVFFBRkdUUkRVVFBRRFQ0WVdRUENaV1hWTk5GTVJRRlE2SzJKVVVOWVZPUEpPUUJCNDdOVVI3STZaVUlPMjNZSzVOTlZQT1VORTNEUzZQR0Q1SzZZSUtFWkQ3R1o1VVFVUkJQTkxHVlROUjc3R05VNTNSWkM3VjdZQkcyUzVFTjRSNElaVE1VRVFBWUdaWlgzNkhPRzNGNllRSDRJIn19.Eotbd3KtQuHMxd4o2KzI787erhIpmv03aVcpnX6xunNcMVPJiGqbHrX_k-4q3Rm0vpd17tf2RV_885DfJ2kO-WSVrBVfOvuQ21xGGMYOEXY07frb8bBqW81dE1LSud9YbP9mjmz6u7wCXa_GRO8_XrPW5j4ATrPwHb7LwDAwA28W50Eu4LtAaZVnCDCG9gQYXHu0lBnrCfvFnIE0F_3GT9JEmpJRSRZZT42-pc4I_TstHkOwogiu7eRBw7Hj1Fps1adKb1jrz4BojlhwqC7IU4-_Ss7uiIAESyJnMyVqnyKncBQS9TwQE-E6Iy6RMY-UpO4EIyOTkY9CUZEfULwNEA"
+            }
+          },
+          "request": {
+            "type": "LaunchRequest",
+            "requestId": "amzn1.echo-api.request.3be6f2b7-56fb-42f4-bdc8-53a559ed16fa",
+            "timestamp": "2019-02-22T13:59:07Z",
+            "locale": "en-US",
+            "shouldLinkResultBeReturned": false
+          }
+        }
+      },
+      "metrics": {
+        "skillExecutionTimeInMilliseconds": 45
+      }
+    },
+    "error": {
+      "message": "Request to skill endpoint resulted in an error."
+    }
+  }
+}

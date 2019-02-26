@@ -1,0 +1,74 @@
+{
+  "id": "53f852f1-5d43-459d-86a2-9f6d7a285908",
+  "status": "SUCCESSFUL",
+  "result": {
+    "alexaExecutionInfo": {
+      "alexaResponses": [
+        {
+          "type": "Speech",
+          "content": {
+            "caption": "There was a problem with the requested skill's response"
+          }
+        }
+      ]
+    },
+    "skillExecutionInfo": {
+      "invocationRequest": {
+        "endpoint": "arn:aws:lambda:us-east-1:948715237509:function:ask-custom-ted-search-default",
+        "body": {
+          "version": "1.0",
+          "session": {
+            "new": true,
+            "sessionId": "amzn1.echo-api.session.5922aca0-4322-4d9a-84d2-3c50d95d6362",
+            "application": {
+              "applicationId": "amzn1.ask.skill.fed2c5b5-6ad8-40f2-aa0a-647363a217ae"
+            },
+            "user": {
+              "userId": "amzn1.ask.account.AEPW3CMF2USGTSKBFVR76T5WHAGV3AQMD5WZWXDTH2GXL4RZXNMTQAFGTRDUTPQDT4YWQPCZWXVNNFMRQFQ6K2JUUNYVOPJOQBB47NUR7I6ZUIO23YK5NNVPOUNE3DS6PGD5K6YIKEZD7GZ5UQURBPNLGVTNR77GNU53RZC7V7YBG2S5EN4R4IZTMUEQAYGZZX36HOG3F6YQH4I"
+            }
+          },
+          "context": {
+            "System": {
+              "application": {
+                "applicationId": "amzn1.ask.skill.fed2c5b5-6ad8-40f2-aa0a-647363a217ae"
+              },
+              "user": {
+                "userId": "amzn1.ask.account.AEPW3CMF2USGTSKBFVR76T5WHAGV3AQMD5WZWXDTH2GXL4RZXNMTQAFGTRDUTPQDT4YWQPCZWXVNNFMRQFQ6K2JUUNYVOPJOQBB47NUR7I6ZUIO23YK5NNVPOUNE3DS6PGD5K6YIKEZD7GZ5UQURBPNLGVTNR77GNU53RZC7V7YBG2S5EN4R4IZTMUEQAYGZZX36HOG3F6YQH4I"
+              },
+              "device": {
+                "deviceId": "amzn1.ask.device.AF2OJZSX4BNRDGYTEVUEMJN7AS2XFI3EZZRZF4OGV3BUZMHW42N6COSFPSBPMXDYS2UFLR3FQCLSDFX2QWVYOEPLO4ZVCB3DGAZZVFJYCNZKDF5WY7QVNTBLZ2PJPYRSPPMVTNK4EP3I6B5UPNBJBFTC2C6A",
+                "supportedInterfaces": {}
+              },
+              "apiEndpoint": "https://api.amazonalexa.com",
+              "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmZlZDJjNWI1LTZhZDgtNDBmMi1hYTBhLTY0NzM2M2EyMTdhZSIsImV4cCI6MTU1MDg0NDY5MiwiaWF0IjoxNTUwODQ0MzkyLCJuYmYiOjE1NTA4NDQzOTIsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUYyT0paU1g0Qk5SREdZVEVWVUVNSk43QVMyWEZJM0VaWlJaRjRPR1YzQlVaTUhXNDJONkNPU0ZQU0JQTVhEWVMyVUZMUjNGUUNMU0RGWDJRV1ZZT0VQTE80WlZDQjNER0FaWlZGSllDTlpLREY1V1k3UVZOVEJMWjJQSlBZUlNQUE1WVE5LNEVQM0k2QjVVUE5CSkJGVEMyQzZBIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUVQVzNDTUYyVVNHVFNLQkZWUjc2VDVXSEFHVjNBUU1ENVdaV1hEVEgyR1hMNFJaWE5NVFFBRkdUUkRVVFBRRFQ0WVdRUENaV1hWTk5GTVJRRlE2SzJKVVVOWVZPUEpPUUJCNDdOVVI3STZaVUlPMjNZSzVOTlZQT1VORTNEUzZQR0Q1SzZZSUtFWkQ3R1o1VVFVUkJQTkxHVlROUjc3R05VNTNSWkM3VjdZQkcyUzVFTjRSNElaVE1VRVFBWUdaWlgzNkhPRzNGNllRSDRJIn19.NZHWkvQjow96c6_uM_se_vJ8zoIuH3antcvyiGILVn1ymMnergcGWOhdo9Sleydoa92cwi_e2541UfWt6H1z78BXGp8kawlqHxq6gJtbp1sGFSuQlllNnpGqkFIu8voVgv7qVkBBaxrg7u1B7iSoplkoqlpIpej2m0RTnZ_tUhTEVVaun50qXaSB-gQN4cPr0iOu6_zdmvb8YoeCRDMwIifWdI-KePFNOD7xo7-IJgngVMsy-G5FMf0EwHo8LYQZUyFga66WNlTwO2gPx2orZ_9UDT0hAoF8KDmtDGfn9jPr0YqtcTLjQ7ab_MrU9VGY8hV7bXgvd1itXWHRF0UF7Q"
+            }
+          },
+          "request": {
+            "type": "IntentRequest",
+            "requestId": "amzn1.echo-api.request.8637ef7c-a68a-468b-991f-2268a692067a",
+            "timestamp": "2019-02-22T14:06:32Z",
+            "locale": "en-US",
+            "intent": {
+              "name": "SearchIntent",
+              "confirmationStatus": "NONE",
+              "slots": {
+                "query": {
+                  "name": "query",
+                  "value": "malaria",
+                  "confirmationStatus": "NONE",
+                  "source": "USER"
+                }
+              }
+            }
+          }
+        }
+      },
+      "metrics": {
+        "skillExecutionTimeInMilliseconds": 206
+      }
+    },
+    "error": {
+      "message": "Request to skill endpoint resulted in an error."
+    }
+  }
+}
